@@ -1,0 +1,539 @@
+/*Achievement*/
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Brush Script MT', cursive;
+    color: wheat;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/*LOGO*/
+
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: blue;
+    line-height: 75px;
+    padding: 0px 100px;
+    z-index: 1;
+}
+
+nav .logo{
+    float: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+nav .logo p{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+nav ul{
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+   color: aqua;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Damion', cursive;
+}
+
+.container{
+    position: relative;
+    width: 1200px;
+    height: 950px;
+    margin: 50px auto;
+    background: #151E3D;
+}
+
+.container .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(950px - 30px);
+    background-image: url("image/achievementbox.png");
+    background-repeat: no-repeat;
+    background-size: 372px 950px;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.container .box .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: wheat;
+    transition: 0.5s;
+}
+
+.container .box:hover .icon{
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container .box h3 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    font-size: 24px;
+}
+
+.container .box p {
+    color: wheat;
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    font-size: 18px;
+}
+
+.container .box:nth-child(1) .icon{
+    background: #18e8ff;
+}
+
+.container .box:nth-child(1) .icon{
+    background: #24d6ea;
+    opacity: 0.5;
+}
+
+.container .box:nth-child(2) .icon{
+    background: #d03852;
+}
+
+.container .box:nth-child(2) .icon{
+    background: #678de3;
+    opacity: 0.5;
+}
+
+.container .box:nth-child(3) .icon{
+    background: #23798e;
+}
+
+.container .box:nth-child(3) .icon{
+    background: #106578;
+    opacity: 0.5;
+}
+
+/*Index*/
+.box1 {
+    background-image: url("image/indexBg.png");
+    background-repeat: no-repeat;
+    background-size: 1090px 165px;
+    width: 1090px;
+    border: 15px solid #04918a;
+    padding: 30px;
+    margin: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: wheat;
+}
+
+.Avatar img{
+    border-radius: 50%;
+}
+
+.card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    max-width: 800px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', cursive;
+}
+
+.personal-particulars h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto', cursive;
+}
+
+.personal-particulars p{
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', cursive;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.personal-particulars h2 u{
+    font-size: 20px;
+    color: black;
+    font-family: 'Roboto', cursive;
+    
+}
+
+/*Video*/
+ .center{
+    text-align: center;
+}
+
+/*BG Image*/
+
+body, html {
+    height: 142%;
+    margin: 0;
+}  
+
+
+.bg {
+    /* The image used */
+    background-image: url("image/Bg.PNG");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Footer*/
+.footer-bottom{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fcfcfc;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 98.7vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 98.7vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Button*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+  
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #4169E1;
+}
+
+/*Gallery*/
+.main_container{
+    margin: 2% 0 0 36%;
+    position: relative;
+    width: 25%;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.main_container:hover .overlay{
+    height: 100%;
+    opacity: 0.5;
+}
+
+.overlay h1{
+    width: 100%;
+    margin-top: 50%;
+    color: white;
+    font-size: 4vw;
+    position: absolute;
+    text-align: center;
+    font-family: 'Damion', cursive;
+    transform: rotate(-5deg)skewX(-5deg);
+}
+
+.overlay h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.2vw;
+    margin: 40% 0 0 18%;
+    width: 70%;
+    letter-spacing: 5px;
+    line-height: 1.5em;
+}
+
+/*My Education*/
+*{
+    box-sizing: border-box;
+}
+  
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 30px;
+    height: 950px; 
+    text-align: center;
+ }
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Contact Info*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container-1 {
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column-1 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column-1, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+.card-1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    max-width: 600px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', cursive;
+}
+  
+.title-1 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', cursive;
+}
+
+
+
+
+  /*Profile*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
+    max-width: 600px;
+    height: 950px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Roboto', cursive;
+}
+  
+.title {
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', cursive;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+  
+.card h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Roboto', cursive;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 30px;
+  }
+  
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: #dddddd;
+  }
+  
+
