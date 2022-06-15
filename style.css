@@ -216,6 +216,7 @@ body, html {
 .bg {
     /* The image used */
     background-image: url("image/Bg.png");
+    background-color: #67c1c5;
   
     /* Full height */
     height: 100%; 
