@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>E Resume</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Damion&family=Roboto:wght@300&display=swap">
+
+    </head>
+
+    <body>
+
+        <div class="bg">
+        
+        <br><h1>MY GALLERY</h1><br>
+
+        <nav>
+            <div class="logo">
+                <p> &#128513</p>
+            </div>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+                <li><a href="education.html">EDUCATION</a></li>
+                <li><a href="achivement.html">ACHIEVEMENT</a></li>
+                <li><a href="galery.html">GALLERY</a></li>
+                <li><a href="contact info.html">CONTACT INFO</a></li>
+            </ul>
+        </nav>
+
+        <div class="main_container">
+            <img src="image/exam.jpg" alt="" class="image">
+            <div class="overlay">
+                <h1>UITM Result Examination</h1>
+                <br><br><h2></h2>
+            </div>
+        </div>
+
+        <div class="main_container">
+            <img src="image/resultspm.jpeg" alt="" class="image">
+            <div class="overlay">
+                <h1>SPM Result Examination</h1>
+                <h2></h2>
+            </div>
+        </div>
+
+        </div>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } 
+            else {
+                mybutton.style.display = "none";
+            }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+        <footer>
+            <div class="footer-content">
+                <h3>Follow Me</h3>
+                <p>This website is for educational purpose only. <br>
+                </p>
+                    <ul class="socials">
+                        <li><a href="https://www.facebook.com/marnis.tiyrah/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/TiyrahMarnis"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCM4X-5WVXN7mC8Me2YJxaYQ"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="http://wasap.my/+60192651902"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/maqeenishh_beanpole/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="mailto: marnis.tiyrah@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="https://discord.gg/Marnis#3764"><i class="fab fa-discord"></i></a></li>
+                    </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p>copyright &copy;2022 codeOpacity. designed by <span>Marnis Norfathirah binti Mohd Sabri</span></p>
+            </div>
+        </footer>
+
+    </body>
+</html>
